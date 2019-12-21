@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2509176388464212506}
   - component: {fileID: 2509176388464212505}
   - component: {fileID: 114741552683526898}
+  - component: {fileID: 114939352464409594}
   m_Layer: 0
   m_Name: sheep
   m_TagString: Player
@@ -28,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2509176388464245948}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
@@ -121,3 +122,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4243dc5f2bbe948970701b7e19c7c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114939352464409594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2509176388464245948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4825d552565f65941a2d2859ea347fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera_follow: {fileID: 0}
